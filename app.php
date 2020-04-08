@@ -20,7 +20,7 @@
 */
 
 require  './vendor/autoload.php';
-require  '.nonvisdata.php';
+require  'nonvisdata.php';
 use Krugozor\Database\Mysql\Mysql as Mysql;
 
 $db = Mysql::create($host, $malogin, $mysqlpass)
