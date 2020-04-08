@@ -1,6 +1,0 @@
-{
-    "require": {
-        "thingengineer/mysqli-database-class": "dev-master",
-        "krugozor/database": "^1.0"
-    }
-}
