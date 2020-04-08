@@ -1,0 +1,388 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(55, 51, 58);
+    display: flex;
+<<<<<<< HEAD
+=======
+    font-family: 'Quicksand';
+    font-weight: bold;
+    height: 100%;
+    font-size: 3vh;
+>>>>>>> frontend
+}
+
+
+h1,h2,h3,h4,p {
+    margin: 0;
+    padding: 0;
+}
+
+.players {
+<<<<<<< HEAD
+    content: "";
+    width: 300px;
+    height: 200px;
+=======
+    width: 25vh;
+    height: 20vh;
+>>>>>>> frontend
+    display: flex;
+    flex-direction: column;
+    margin: 70px;
+    margin-left: 150px;
+    background-color: rgb(44, 44, 44);
+}
+
+<<<<<<< HEAD
+=======
+/* ---------Players--------- */
+>>>>>>> frontend
+.players {
+    justify-content: center;
+    text-align: center;
+}
+.avatar {
+    margin-left: auto;
+    margin-right: auto;
+<<<<<<< HEAD
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+=======
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    max-width: 80px;
+    max-height: 80px;
+    width: 8vh;
+    height: 8vh;
+>>>>>>> frontend
+    border-radius: 50%;
+    background-color: #fff;
+}
+.nickname {
+<<<<<<< HEAD
+    font-size: 25px;
+=======
+    font-size: 3vh;
+>>>>>>> frontend
+    color: white;
+}
+
+.cash {
+<<<<<<< HEAD
+    font-size: 30px;
+=======
+    font-size: 3vh;
+>>>>>>> frontend
+    color: white;
+    &::before {
+        content: "$";
+    }
+    &::after {
+<<<<<<< HEAD
+        content: "k"
+=======
+        content: "k";
+>>>>>>> frontend
+    }
+}
+
+#player-1 .avatar {
+    border: 5px solid goldenrod;
+<<<<<<< HEAD
+=======
+    background: url(../img/nikita.png) no-repeat;
+    background-size: cover;
+>>>>>>> frontend
+}
+
+#player-2 .avatar {
+    border: 5px solid rgb(49, 158, 107);
+<<<<<<< HEAD
+}
+#player-3 .avatar {
+    border: 5px solid rgb(158, 62, 137);
+}
+
+
+
+/*  ----------game-field---------- */
+
+@top-field-width: 120px;
+.gamebox {
+    margin-left: 50px;
+    margin-top: 50px;
+=======
+    background: url(../img/kostya.png) no-repeat;
+    background-size: cover;
+}
+#player-3 .avatar {
+    border: 5px solid rgb(158, 62, 137);
+    background: url(../img/roma.png) no-repeat;
+    background-size: cover;
+}
+
+
+/*  ----------game-field---------- */
+
+@top-field-width: 13vh;
+.gamebox {
+    margin-left: 50px;
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+<<<<<<< HEAD
+>>>>>>> frontend
+    background-color: rgba(54, 14, 83, 0.432);
+=======
+    background-color: rgba(92, 77, 102, 0.432);
+>>>>>>> frontend
+    width: auto;
+    height: auto;
+}
+
+
+.main-row {
+    display: flex;
+}
+.main-field {
+    width: @top-field-width;
+    height: @top-field-width;
+    background-color: khaki;
+    margin: 1px;
+}
+
+.vertical-field {
+<<<<<<< HEAD
+    width: 80px;
+=======
+    width: 7vh;
+>>>>>>> frontend
+    height: @top-field-width;
+    background-color: lightgray;
+    margin: 1px;
+}
+
+.second-row {
+    display:flex;
+}
+.horizontal-field {
+    width: @top-field-width;
+<<<<<<< HEAD
+    height: 70px;
+=======
+    height: 7vh;
+>>>>>>> frontend
+    background-color: lightgray;
+    margin: 1px;
+    &:last-child {
+        margin-left: auto;
+    }
+}
+
+<<<<<<< HEAD
+=======
+
+/* --------Cards-------- */
+#card-0 {
+    background: url(../img/start.png);
+    background-size: cover;
+}
+#card-1 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-2 {
+    background: url(../img/question.jpg);
+    background-size: cover;
+}
+
+#card-3 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-4 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-5 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-6 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-7 {
+    background: url(../img/question.jpg);
+    background-size: cover;
+}
+
+#card-8 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-9 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-10 {
+    background: url(../img/prison.png);
+    background-size: cover;
+}
+
+#card-11 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-12 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-13 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-14 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-15 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-16 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-17 {
+    background: url(../img/question-right.jpg);
+    background-size: cover;
+}
+
+#card-18 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-19 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-20 {
+    background: url(../img/ps.jpg);
+    background-size: cover;
+}
+
+#card-21 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-22 {
+    background: url(../img/question.jpg);
+    background-size: cover;
+}
+
+#card-23 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-24 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-25 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-26 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-27 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-28 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-29 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-30 {
+    background: url(../img/polise.jpg);
+    background-size: cover;
+}
+
+#card-31 {
+    background: url(../img/2.png) #fff;
+    background-size: cover;
+}
+
+#card-32 {
+    background: url(../img/3.png) #fff;
+    background-size: cover;
+}
+
+#card-33 {
+    background: url(../img/question-left.jpg);
+    background-size: cover;
+}
+
+#card-34 {
+    background: url(../img/4.png) #fff;
+    background-size: cover;
+}
+
+#card-35 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-36 {
+    background: url(../img/1.png);
+    background-size: cover;
+}
+
+#card-37 {
+    background: url(../img/5.png) #fff;
+    background-size: cover;
+}
+
+#card-38 {
+    background: url(../img/question-left.jpg);
+    background-size: cover;
+}
+
+#card-39 {
+    background: url(../img/6.png) #fff;
+    background-size: cover;
+}
+
+
+
+>>>>>>> frontend

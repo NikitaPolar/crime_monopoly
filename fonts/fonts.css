@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat/Montserrat-Medium.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand/Quicksand-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand/Quicksand-Medium.ttf.ttf') format('truetype');
+    font-weight: normal;
+}
